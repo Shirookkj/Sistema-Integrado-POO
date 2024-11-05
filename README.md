@@ -150,12 +150,12 @@ Este projeto é um Sistema de Gerenciamento de Consultas Médicas em Java que pe
 - Pergunta: Quais eventos ainda têm vagas e não estão lotados?
 - Tomada de Decisão: Permite à equipe gerenciar a divulgação de eventos com base nas vagas disponíveis, promovendo eventos com menor adesão para aumentar o número de participantes.
 
-# 4. O restaurante tem alguma mesa atualmente reservada?
-- Função que responde: reservarMesa()
-- Pergunta: Há alguma mesa reservada no restaurante neste momento?
-- Tomada de Decisão: Ajuda a organizar o fluxo de atendimento, especialmente em horários de pico, assegurando que as reservas sejam bem gerenciadas e a ocupação de mesas seja otimizada.
+# 4. Qual é a especialidade médica mais requisitada?
+- Função que responde: gerarRelatorioConsultas()
+- Pergunta: Qual o resumo de todas as consultas realizadas, incluindo os nomes dos pacientes, médicos e as especialidades?
+- Tomada de Decisão: Ajuda a clínica a ter um panorama geral dos atendimentos realizados, possibilitando análises sobre a demanda por especialidades e o volume de atendimentos.
 
-# 5. Qual a ocupação das mesas no restaurante?
-- Função que responde: buscarMesa() e reservarMesa()
-- Pergunta: Quais mesas estão disponíveis e quais estão ocupadas ou reservadas?
-- Tomada de Decisão: Auxilia na gestão do espaço no restaurante, ajudando a entender o uso das mesas e a planejar a ocupação e o atendimento de forma mais eficiente.
+# 5. Qual o pedido mais frequente?
+- Função que responde: gerarRelatorioVendas()
+- Pergunta: QUal o resumo de todas as vendas feitas, incluído custo e nome do pedido.
+- Tomada de Decisão: Ajuda o estabelecimento a monitorar e mudar os valores dos pedidos, e ajustar de acordo com a demanda.
